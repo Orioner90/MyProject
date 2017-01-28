@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
+a:hover, a:link{
+	text-decoration: none;
+}
+#wrapper {
+	width: 950px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+   height:151px;
+}
+#upHead{
+	background-image: url("../img/upHead.gif");
+	height:3px;
+	width:950px;
+}
+#logo{
+	background-image: url("../img/logo.gif");
+	height:58px;
+	width:58px;
+	float:left;
+	margin-top:38px;
+}
+#about{
+	float:left;
+	padding:0px 0px 0px 20px;
+	font-size:12px;
+	font-family:"Trebuchet MS";
+	margin-top:51px;
+	width:180px;
+	
+}
+.shrift{	
+	font-size:11px;
+	font-family:"Trebuchet MS";
+	}
+.menu{
+	text-align:center;
+	padding-top:10px;
+	float:right;
+	height:25px;
+	width:70px;
+	margin:51px 0px 0px 10px;
+	background-color:#484848;
+	color:#e7e7e7;
+}
+.menu:hover,a:visited  .menu{
+	background-color:#62adfd;
+}
+li{
+list-style-type: none;
+}
+#category li{
+	display: inline; 
+    margin-right: 15px;
+}
+#category li a:link{
+	color:#000;
+	text-decoration:none;
+	background:url("../img/dots.gif") 0px 15px repeat-x;
+}
+#category li a:visited{
+	color: #000;
+	text-decoration:none; 
+	background:url("../img/dots.gif") 0px 15px repeat-x;	
+}
+#category li a:hover{	
+	text-decoration:none;
+	color: #000;
+	background:none;
+}
+#contTitl{
+margin-top:40px;
+font-size:14px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle{
+	width: 100%;
+	margin-top:36px;
+}
+.content{
+	width:230px;
+	height:378px;
+	float:left;
+	margin-right:10px;
+}
+.end{
+	margin-right:0px;
+}
+.aser{
+width:230px;
+height:179px;
+margin-top:-179px;
+opacity:0;
+}
+.aser:hover{
+opacity:0.8;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+
+}
